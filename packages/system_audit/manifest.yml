@@ -27,6 +27,9 @@ policy_templates:
       - type: audit/system
         title: System Audit
         description: Collect various logs & metrics from System Audit modules with Elastic Agent.
+agent:
+  privileges:
+    root: true
 owner:
   github: elastic/security-external-integrations
   type: elastic

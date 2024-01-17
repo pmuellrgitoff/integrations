@@ -60,6 +60,9 @@ policy_templates:
                 responses:
                   - match: [executableChanges]
                     actions: [alert]
+agent:
+  privileges:
+    root: false
 owner:
   type: elastic
   github: elastic/sec-linux-platform

@@ -36,6 +36,9 @@ policy_templates:
       - type: audit/auditd
         title: Collect auditd events
         description: Collecting auditd events
+agent:
+  privileges:
+    root: true
 owner:
   github: elastic/security-external-integrations
   type: elastic

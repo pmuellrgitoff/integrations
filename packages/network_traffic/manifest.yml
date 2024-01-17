@@ -40,6 +40,9 @@ policy_templates:
             required: false
             show_user: false
             default: false
+agent:
+  privileges:
+    root: true
 owner:
   github: elastic/security-external-integrations
   type: elastic
