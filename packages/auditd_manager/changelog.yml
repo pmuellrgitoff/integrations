@@ -1,6 +1,9 @@
 # newer versions go on top
-- version: 1.16.1
+- version: "1.16.1"
   changes:
+    - description: mark as requiring root
+      type: enhancement
+      link: https://github.com/elastic/integrations/issues/8647
     - description: Fix socket type selection and documentation.
       type: bugfix
       link: https://github.com/elastic/integrations/pull/8558
