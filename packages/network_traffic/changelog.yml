@@ -1,4 +1,9 @@
 # newer versions go on top
+- version: "1.29.2"
+  changes:
+    - description: mark as requiring root
+      type: enhancement
+      link: https://github.com/elastic/integrations/issues/8647
 - version: "1.29.1"
   changes:
     - description: Changed owners
@@ -6,9 +11,6 @@
       link: https://github.com/elastic/integrations/pull/8943
 - version: "1.29.0"
   changes:
-    - description: mark as requiring root
-      type: enhancement
-      link: https://github.com/elastic/integrations/issues/8647
     - description: Add `process.parent.pid` remapping to compatibility pipelines.
       type: enhancement
       link: https://github.com/elastic/integrations/pull/8678
