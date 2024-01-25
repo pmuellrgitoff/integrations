@@ -1,9 +1,11 @@
 # newer versions go on top
-- version: "1.14.0"
+- version: "1.14.1"
   changes:
-    - description: mark as requiring root
+    - description: Changed owners
       type: enhancement
-      link: https://github.com/elastic/integrations/issues/8647
+      link: https://github.com/elastic/integrations/pull/8943
+- version: 1.14.0
+  changes:
     - description: ECS version updated to 8.11.0.
       type: enhancement
       link: https://github.com/elastic/integrations/pull/8433
